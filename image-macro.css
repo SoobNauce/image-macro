@@ -1,0 +1,48 @@
+.macro-container {
+    position: relative;
+    text-align: center;
+}
+
+.macro-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.macro-font {
+  color: #000000;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  /* must set outline manually */
+}
+
+.top-text {
+    width:100%;
+    position: absolute;
+    text-align: center;
+    top: 5%;
+}
+
+.bottom-text {
+    width:100%;
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+}
+
+.top-size {
+  font-size: 8.9vw;
+}
+
+.bottom-size {
+  font-size: 8.9vw;
+}
+
+.default-shadow {
+    color: #ffffff;
+    text-shadow: -2px -2px 0px #000000,
+                -2px 2px 0.5px #000000,
+                2px -2px 0.5px #000000,
+                2px 2px 0.5px #000000;
+
+            }

@@ -1,0 +1,25 @@
+<meta charset="UTF-8" />
+<html>
+<head>
+	<title>Simple HTML 5 image macro generator</title>
+	<meta name="author" content="T. M. Vilece" />
+	<meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="image-macro.css" />
+</head>
+<body>
+  <div id="inpanel">
+    Top text <input id="topin" type="text" value="only 90s kids will remember" onkeypress="updatetop()" />
+    <br />
+    Bottom text <input id="bottomin" type="text" value="finding out the hard way what this tastes like" onkeypress="updatebottom()" />
+  </div>
+  <div id="outpanel" class="macro-container">
+    <img class="macro-image" src="https://www.valuevalet.ca/images/upc/z/871281.JPG"/>
+    <div id="topout" class="top-text macro-font top-size default-shadow">
+    </div>
+    <div id="bottomout" class="bottom-text macro-font bottom-size default-shadow">
+    </div>
+  </div>
+  <script src="image-macro.js"></script>
+</body>
+
+</html>
